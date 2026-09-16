@@ -18,6 +18,7 @@ Unnamed: 0 — row index (dropped, not predictive)
 Email Text — raw email content (input feature)
 Email Type — Safe Email / Phishing Email (target)
 Known data quality issues: 19 empty/whitespace text records, 1,111 exact duplicates — both are detected programmatically and removed during cleaning (see Stage 4 output).
+
 **4. Project Structure**
 
 phishing-email-detector/
@@ -31,10 +32,12 @@ phishing-email-detector/
 ├── main.py                pipeline entry point
 ├── setup_project.py       environment/database setup script
 └── requirements.txt
+
 **5. Installation**
 
 bash
 pip install -r requirements.txt
+
 **6. Setup**
 
 Run once, before anything else:
